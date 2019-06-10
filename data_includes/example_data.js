@@ -130,7 +130,7 @@ var items = [
 ["practice", Message, {consentRequired: false,
                   html: ["div",
                           ["p", "Alright, that's it for practice!"],
-                          ["p", "Remember: 'F' = ungrammatical and 'J' = grammatical."],
+                          ["p", "Remember: 'F' = yes, the sentence was ungrammatical and 'J' = no, the sentence was grammatical."],
                           ["p", "Press the link when you're ready to begin, and please pay attention throughout the experiment. Have Fun!"]
                         ]}],
 
