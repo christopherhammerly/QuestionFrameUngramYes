@@ -16,8 +16,8 @@ var shuffleSequence = seq(
 
 //  Set the Prolific Academic Completion URL
 var sendingResultsMessage = "Please wait. Your data are being sent to the server."; 
-var completionMessage = "Thank you for your participation. Your completion code is UINJOPV3. To complete this experiment, go to: https://app.prolific.ac/submissions/complete?cc=UINJOPV3."; 
-var completionErrorMessage = "There was an error in sending your data to the server. You may still complete this experiment. Your completion code is UINJOPV3. Please go to: https://app.prolific.ac/submissions/complete?cc=UINJOPV3."; 
+var completionMessage = "Thank you for your participation. Your completion code is Y2NZ2FX7. To complete this experiment, go to: https://app.prolific.ac/submissions/complete?cc=Y2NZ2FX7."; 
+var completionErrorMessage = "There was an error in sending your data to the server. You may still complete this experiment. Your completion code is Y2NZ2FX7. Please go to: https://app.prolific.ac/submissions/complete?cc=Y2NZ2FX7."; 
 
 
 var defaults = [
@@ -101,7 +101,7 @@ var items = [
 
 ["practice", Message, {consentRequired: false,
                   html: ["div",
-                          ["p", "How was that? That item is one that some, but not all, English speakers judge to be ungrammatical."],
+                          ["p", "How was that? That item is one that some, but not all, English speakers judge to be ungrammatical (the 'F' key)."],
                           ["p", "Let's try another one."]
                         ]}],
 
@@ -111,7 +111,7 @@ var items = [
 
 ["practice", Message, {consentRequired: false,
                   html: ["div",
-                          ["p", "That probably felt different than the last one. Many English speakers judge that last sentence to be grammatical. "],
+                          ["p", "That probably felt different than the last one. Many English speakers judge that last sentence to be grammatical (the 'J' key). "],
                           ["p", "Now let's try a few in a row. These will be longer, and more similar to the ones you'll see in the experiment"]
                         ]}],
 
@@ -130,7 +130,7 @@ var items = [
 ["practice", Message, {consentRequired: false,
                   html: ["div",
                           ["p", "Alright, that's it for practice!"],
-                          ["p", "Remember: 'F' = grammatical and 'J' = ungrammatical."],
+                          ["p", "Remember: 'F' = ungrammatical and 'J' = grammatical."],
                           ["p", "Press the link when you're ready to begin, and please pay attention throughout the experiment. Have Fun!"]
                         ]}],
 
